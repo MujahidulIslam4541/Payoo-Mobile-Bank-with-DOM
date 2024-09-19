@@ -16,11 +16,11 @@ document.getElementById('login-button').addEventListener('click', function(event
     console.log(pinNumber);
 
     // step:5 this is temporary
-    if(phoneNUmber==='01' && pinNumber==='1234'){
+    if(phoneNUmber==='01843311140' && pinNumber==='1234'){
         console.log('You are logged in')
         window.location.href='./home-page.html'
     }
     else{
-        alert('Wrong Phone Number or pin');
+        alert('Wrong Phone Number or pin! Please try again');
     }
 })
